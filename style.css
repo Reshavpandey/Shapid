@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat&family=Open+Sans:wght@500&display=swap');
+html, body {
+    height: 100%;
+  }
+  
+  .text {
+    font-family: 'Inter', sans-serif;
+    text-align: center; 
+    height: 100%;
+    line-height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 100px; */
+    /* width: 100%; */
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  .text p{
+    color:#e38080;
+    font-size: 1000%;
+    /* font-weight: bolder; */
+    font-weight: lighter;
+  }
